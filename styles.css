@@ -61,4 +61,11 @@
     .col{
         margin-top: 5% !important;
     }
+
   }
+
+@media (min-width: 480px){
+    form{
+        width: 50%;
+    }
+}
