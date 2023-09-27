@@ -26,22 +26,33 @@
     </nav>
   </header>
   <main>
-    <div class="position-relative d-flex">
-      <img class="img-fluid" src="source/ba1.jpg" style="filter: brightness(0.5);">
-      <div class="container hidden-xs image-txt text-white">
-        <div class="col-md-12 text-end position-absolute">
-            <h1>Conf Bs As</h1>
-            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con<br>
-                nuestra comunidad el conocimiento y experiencia de los expertos que<br> 
-                están creando el futuro de Internet. Ven a conocer a miembros del<br> 
-                evento, a otros estudiantes de Codo a Codo y los oradores de primer<br> 
-                nivel que tenemos para ti. Te esperamos!</p>
-            <p><a class="btn btn-outline-light" href="#solicitud">Quiero ser orador</a>
-            <a class="btn btn-success btn-tickets ms-2" href="#">Comprar tickets</a></p>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="source/ba1.jpg" class="position-relative d-block w-100" style="filter: brightness(0.5);">
+        </div>
+        <div class="carousel-item " data-bs-interval="2000">
+          <img src="source/ba2.jpg" class="position-relative d-block w-100" style="filter: brightness(0.5);">
+        </div>
+        <div class="carousel-item " data-bs-interval="2000">
+          <img src="source/ba3.jpg" class="position-relative d-block w-100" style="filter: brightness(0.5);">
+        </div>
+        <div class="container hidden-xs image-txt text-white">
+          <div class="col-md-12 text-end position-absolute">
+              <h1>Conf Bs As</h1>
+              <p>Bs As llega por primera vez a Argentina. Un evento para compartir con<br>
+                  nuestra comunidad el conocimiento y experiencia de los expertos que<br> 
+                  están creando el futuro de Internet. Ven a conocer a miembros del<br> 
+                  evento, a otros estudiantes de Codo a Codo y los oradores de primer<br> 
+                  nivel que tenemos para ti. Te esperamos!</p>
+              <p><a class="btn btn-outline-light" href="#solicitud">Quiero ser orador</a>
+              <a class="btn btn-success btn-tickets ms-2" href="#">Comprar tickets</a></p>
+          </div>
         </div>
       </div>
     </div>
-  
+
     <section id="oradores">
       <div class="container">
         <p class="text-center txt-oradores"><small>CONOCE A LOS</small></p>
@@ -157,6 +168,8 @@
     </ul>
   </footer> 
 
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
