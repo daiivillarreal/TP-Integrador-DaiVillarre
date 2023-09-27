@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-escale=1.0">
     <link rel="STYLESHEET" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="source/codoacodo.png">
     <title>TP Integrador Front - Daiana Villarreal</title>
 </head>
@@ -15,31 +16,35 @@
         <img src="source/codoacodo.png" width="100px">
         <span class="fs-4">Conf Bs As</span>
       </a>
-    
-      <ul class="nav">
-        <li class="nav-item"><a href="#" class="nav-link link-light" aria-current="page">La conferencia</a></li>
-        <li class="nav-item"><a href="#oradores" class="nav-link link-secondary text-white-50">Los oradores</a></li>
-        <li class="nav-item"><a href="#lugarfecha" class="nav-link link-secondary text-white-50">El lugar y la fecha</a></li>
-        <li class="nav-item"><a href="#solicitud" class="nav-link link-secondary text-white-50">Conviértete en orador</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-success">Comprar Tickets</a></li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse flex-grow-0">
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-light" aria-current="page">La conferencia</a></li>
+          <li class="nav-item"><a href="#oradores" class="nav-link link-secondary text-white-50">Los oradores</a></li>
+          <li class="nav-item"><a href="#lugarfecha" class="nav-link link-secondary text-white-50">El lugar y la fecha</a></li>
+          <li class="nav-item"><a href="#solicitud" class="nav-link link-secondary text-white-50">Conviértete en orador</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-success">Comprar Tickets</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner" >
         <div class="carousel-item active" data-bs-interval="2000">
-          <img src="source/ba1.jpg" class="position-relative d-block w-100" style="filter: brightness(0.5);">
+          <img src="source/ba1.jpg" class="position-relative d-block img-ds img-rs" style="filter: brightness(0.5);">
         </div>
         <div class="carousel-item " data-bs-interval="2000">
-          <img src="source/ba2.jpg" class="position-relative d-block w-100" style="filter: brightness(0.5);">
+          <img src="source/ba2.jpg" class="position-relative d-block img-ds img-rs" style="filter: brightness(0.5);">
         </div>
         <div class="carousel-item " data-bs-interval="2000">
-          <img src="source/ba3.jpg" class="position-relative d-block w-100" style="filter: brightness(0.5);">
+          <img src="source/ba3.jpg" class="position-relative d-block img-ds img-rs" style="filter: brightness(0.5);">
         </div>
         <div class="container hidden-xs image-txt text-white">
-          <div class="col-md-12 text-end position-absolute">
+          <div class="col-md-12 text-end position-relative">
               <h1>Conf Bs As</h1>
               <p>Bs As llega por primera vez a Argentina. Un evento para compartir con<br>
                   nuestra comunidad el conocimiento y experiencia de los expertos que<br> 
@@ -168,8 +173,7 @@
     </ul>
   </footer> 
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

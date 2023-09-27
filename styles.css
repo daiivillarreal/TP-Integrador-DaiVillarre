@@ -5,8 +5,17 @@
 .btn-enviar {
     background-color: #96C93E !important;
 }
+
 .btn-enviar:hover{
     background-color: #85b337 !important;
+}
+
+.carousel-inner{
+    height: 40rem;
+}
+
+.img-ds{
+    width: 100%;
 }
 
 .image-txt {
@@ -40,8 +49,16 @@
 }
 
 .tarjetas{
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
     margin-top: 15px !important;
 }
 
+@media (max-width: 480px) {
+    .img-rs {
+      width: auto !important;
+    }
+    .col{
+        margin-top: 5% !important;
+    }
+  }
